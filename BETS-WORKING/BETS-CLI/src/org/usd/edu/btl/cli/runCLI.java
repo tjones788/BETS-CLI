@@ -17,7 +17,7 @@ import static org.usd.edu.btl.cli.InteractiveMode.userPrompts;
 public class runCLI {
 
     static String inputFormat = null;
-    static String outputFormat = null;
+    private static String outputFormat = null;
     static String inputFile = null;
     static String outputFile = null;
 
@@ -25,6 +25,7 @@ public class runCLI {
 
     public static void main(String[] args) {
         System.out.println("Run Bets-CLI");
+        System.out.println("ARGS OUPUT FORMAT = " + args[3]);
         //if there are no arguments, ask the user for them
         if (args.length < 1) {
             System.out.println("You have not entered any arguments.");
@@ -59,6 +60,7 @@ public class runCLI {
                     }
                 } else if (arg.equals("-O") || arg.equals("--outputformat")) {
                     outputFormat = args[++i];
+                    System.out.println("OUTPUT FORMAT!!!!!!!! = " + outputFormat);
                     if (outputFormat == null) {
                         throw new InvalidInputException("You have not entered an Output Format.");
                     }

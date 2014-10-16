@@ -1,6 +1,5 @@
 package org.usd.edu.btl.cli;
 
-
 /**
  *
  * @author Tyler.Jones

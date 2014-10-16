@@ -146,7 +146,7 @@ public class Conversion {
 //            System.out.println("=====BLD INPUT FILE =====");
 //            System.out.println(seqInputJson);
 
-            BETSV1 betsOutput = betsOutput = BLDConverter.toBETS(bldTool);
+            BETSV1 betsOutput = BLDConverter.toBETS(bldTool);
             String betsOutputJson = bldWriter.writeValueAsString(betsOutput); //write Json as String
             if (outputFile == null) {
                 /*===============PRINT JSON TO CONSOLE AND FILES =================== */
