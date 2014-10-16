@@ -272,6 +272,7 @@ public class runCLI {
                 break;  //valid        
             case "bets":
                 betsInput(input, outputFormat, outputFile);
+                System.out.println("!!!!!!!!!!!!!! " + outputFormat);
                 break; //valid
             case "galaxy":
                 galaxyInput(input, outputFormat, outputFile);
