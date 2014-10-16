@@ -31,7 +31,7 @@ public class RunGalaxyTest {
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Tool.class);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller(); //Unmarshalling – Convert XML content into a Java Object.
-            infile = new FileInputStream("test_galaxy_full.xml");
+            infile = new FileInputStream("test_inputs/test_galaxy_full.xml");
             Tool test_tool = (Tool) unmarshaller.unmarshal(infile);
             myTool = test_tool;
             //System.out.println(test_tool.toString()); //print the test_tool 

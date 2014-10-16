@@ -18,7 +18,7 @@ public class RunBetsTest {
      */
     public static void main(String[] args) {
 
-        File betsInput = new File("test_bets.json");
+        File betsInput = new File("test_inputs/test_bets.json");
 
         //System.out.println("Read first line: "+input.);
         ObjectMapper mapper = new ObjectMapper(); //create new Jackson Mapper

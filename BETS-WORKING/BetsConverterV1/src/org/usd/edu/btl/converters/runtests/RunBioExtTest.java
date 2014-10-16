@@ -15,7 +15,7 @@ import org.usd.edu.btl.converters.BioExtConverter;
 public class RunBioExtTest {
 
     public static void main(String[] args) {
-        File BioExtinput = new File("test_bioextract.json"); //iPlantInput
+        File BioExtinput = new File("test_inputs/test_bioextract.json"); //iPlantInput
 
         //System.out.println("Read first line: "+input.);
         ObjectMapper mapper = new ObjectMapper(); //create new Jackson Mapper

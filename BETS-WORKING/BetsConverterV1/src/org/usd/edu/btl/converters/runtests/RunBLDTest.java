@@ -18,7 +18,7 @@ public class RunBLDTest {
      * @param args
      */
     public static void main(String[] args) {
-        File BLDinput = new File("test_BLD.json"); //iPlantInput
+        File BLDinput = new File("test_inputs/test_BLD.json"); //iPlantInput
 
 
         //System.out.println("Read first line: "+input.);

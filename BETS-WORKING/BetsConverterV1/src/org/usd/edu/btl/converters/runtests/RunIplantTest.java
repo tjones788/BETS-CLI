@@ -23,9 +23,9 @@ public class RunIplantTest {
      * @param args
      */
     public static void main(String[] args) {
-        File ipInput = new File("test_iplant.json"); //iPlantInput
-        File ipSampleInput = new File("test_iplant_FULL.json");
-        File betsInput = new File("test_bets.json");
+        File ipInput = new File("test_inputs/test_iplant.json"); //iPlantInput
+        File ipSampleInput = new File("test_inputs/test_iplant_FULL.json");
+        File betsInput = new File("test_inputs/test_bets.json");
 
         //System.out.println("Read first line: "+input.);
         ObjectMapper mapper = new ObjectMapper(); //create new Jackson Mapper

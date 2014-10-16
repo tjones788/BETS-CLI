@@ -18,7 +18,7 @@ public class RunSeqTest {
      * @param args
      */
     public static void main(String[] args) {
-        File seqInput = new File("test_seq.json"); //iPlantInput
+        File seqInput = new File("test_inputs/test_seq.json"); //iPlantInput
 
         ObjectMapper mapper = new ObjectMapper(); //create new Jackson Mapper
 
