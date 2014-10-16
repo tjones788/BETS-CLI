@@ -1,7 +1,7 @@
 package org.usd.edu.btl.cli;
 
 import java.util.Scanner;
-import static org.usd.edu.btl.cli.runCLI.performConversion;
+//import static org.usd.edu.btl.cli.runCLI.performConversion;
 
 /**
  *
@@ -93,6 +93,6 @@ public class InteractiveMode {
         System.out.println(outputFile);
         
         promptSc.close();
-        performConversion(inputFormat, outputFormat, outputFile);
+        //performConversion(inputFormat, outputFormat, outputFile);
     }
 }
