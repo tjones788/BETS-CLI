@@ -17,7 +17,7 @@ public class RunlCLI {
     private static String outputFilename = null;
     private static Boolean interactiveMode = false;
     
-    //public enum formats {iplant, bets, galaxy, seq, bld, bioextract};
+    public enum formats {iplant, bets, galaxy, seq, bld, bioextract};
 
 //    public static void main(String[] args) {
     public static void main(String[] args) {
